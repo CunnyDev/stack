@@ -2,9 +2,9 @@
     "version": 3,
     "deployment": {
         "manifest": {
-            "time": "2024-05-15T17:14:52.618569745Z",
-            "magic": "48b2cc90b770e8e0d16272e1748907818eb6a7cb89163981ecb8d12f701c5592",
-            "version": "v3.116.1"
+            "time": "2024-05-29T02:27:50.296359185Z",
+            "magic": "ba70474edc35573fd078e997550f5cce9d41f4e9358ce260921e377dffdff3b3",
+            "version": "v3.117.0"
         },
         "secrets_providers": {
             "type": "passphrase",
@@ -33,38 +33,43 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-absolute-tk",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members",
                 "custom": true,
-                "id": "6883703:absolute-tk",
-                "type": "github:index/teamMembership:TeamMembership",
+                "id": "6883739",
+                "type": "github:index/team:Team",
                 "inputs": {
                     "__defaults": [
-                        "role"
+                        "createDefaultMaintainer"
                     ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "absolute-tk"
+                    "createDefaultMaintainer": false,
+                    "description": "Core Members",
+                    "name": "Millennium",
+                    "privacy": "closed"
                 },
                 "outputs": {
-                    "etag": "W/\"dca0e8e18d8071f6c57f2d57a66bd764e549407a9926fa987e0a94e9cb82569e\"",
-                    "id": "6883703:absolute-tk",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "absolute-tk"
+                    "createDefaultMaintainer": false,
+                    "description": "Core Members",
+                    "etag": "W/\"76392c9456e354d9b97e0943dc8ef3fab951945772168673f8860f9a7f8b24b0\"",
+                    "id": "6883739",
+                    "ldapDn": "",
+                    "membersCount": 0,
+                    "name": "Millennium",
+                    "nodeId": "T_kwDOBvJpkc4AaQmb",
+                    "privacy": "closed",
+                    "slug": "millennium"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
                 "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-02-26T19:03:55.015023125Z",
-                "modified": "2024-02-26T19:03:55.015023125Z"
+                    "description": [],
+                    "name": [],
+                    "privacy": []
+                }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-narze",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-WitMaster98",
                 "custom": true,
-                "id": "6883703:narze",
+                "id": "6883703:WitMaster98",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -72,14 +77,14 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "narze"
+                    "username": "WitMaster98"
                 },
                 "outputs": {
-                    "etag": "W/\"7f7242ef2f294999bab7bd023bb48424b10fc9b4d1ffed56fc46303fe293c7df\"",
-                    "id": "6883703:narze",
+                    "etag": "W/\"b3cbfbed5c40429fe3b9027c5fbab12bd30df4b18afabeb26accf04dc07f8322\"",
+                    "id": "6883703:WitMaster98",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "narze"
+                    "username": "WitMaster98"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -89,9 +94,9 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Qwenty228",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-chayapatr",
                 "custom": true,
-                "id": "6883703:Qwenty228",
+                "id": "6883703:chayapatr",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -99,99 +104,14 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "Qwenty228"
+                    "username": "chayapatr"
                 },
                 "outputs": {
-                    "etag": "W/\"6a18cb17a5973a874c351ea00f114f02aa1bd0cbb389687270a5eae82cae5fb3\"",
-                    "id": "6883703:Qwenty228",
+                    "etag": "W/\"432d05d9eeb3cdc6eb01c096ca5a68e6af1bbb027ca513ed895ae56aaa50bb13\"",
+                    "id": "6883703:chayapatr",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "Qwenty228"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-zunzureal",
-                "custom": true,
-                "id": "6883703:zunzureal",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "zunzureal"
-                },
-                "outputs": {
-                    "etag": "W/\"10fd8df952f5ebc8cff85b726650337f8835d5e46dfa84a4d398f544697d593d\"",
-                    "id": "6883703:zunzureal",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "zunzureal"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-02-17T10:45:07.79292627Z",
-                "modified": "2024-02-17T10:45:07.79292627Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-7valkio",
-                "custom": true,
-                "id": "6883703:7valkio",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "7valkio"
-                },
-                "outputs": {
-                    "etag": "W/\"1be2cb2f7596e20783a57624b14b0a0aa7feaa756dff782ebd8c158ca444ea2a\"",
-                    "id": "6883703:7valkio",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "7valkio"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-05-09T11:24:31.649970485Z",
-                "modified": "2024-05-09T11:24:31.649970485Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-mrwan200",
-                "custom": true,
-                "id": "6883703:mrwan200",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "mrwan200"
-                },
-                "outputs": {
-                    "etag": "W/\"9bf0adb5f4684d95071997aa9eadc6883ff1d6149ba85ac4acf132d25acd25f9\"",
-                    "id": "6883703:mrwan200",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "mrwan200"
+                    "username": "chayapatr"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -230,148 +150,6 @@
                 "modified": "2023-09-18T04:08:14.002675257Z"
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-palmcm",
-                "custom": true,
-                "id": "6883703:palmcm",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "palmcm"
-                },
-                "outputs": {
-                    "etag": "W/\"8946ad0f077578ef4bdcb5e72fa33e9f603bd3ddfddc6b155217fa42b21c6305\"",
-                    "id": "6883703:palmcm",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "palmcm"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-rayriffy",
-                "custom": true,
-                "id": "6883703:rayriffy",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "rayriffy"
-                },
-                "outputs": {
-                    "etag": "W/\"817ac98563c0f0395e1ee926f8781fb62c1fe8f302454a5c0cb532adf4c227ed\"",
-                    "id": "6883703:rayriffy",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "rayriffy"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-chayapatr",
-                "custom": true,
-                "id": "6883703:chayapatr",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "chayapatr"
-                },
-                "outputs": {
-                    "etag": "W/\"432d05d9eeb3cdc6eb01c096ca5a68e6af1bbb027ca513ed895ae56aaa50bb13\"",
-                    "id": "6883703:chayapatr",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "chayapatr"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-ronnapatp",
-                "custom": true,
-                "id": "6883703:ronnapatp",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "ronnapatp"
-                },
-                "outputs": {
-                    "etag": "W/\"68e942acf75d5d9b55c290422a8c3152960face20b8c58df4fee27de15c79a7f\"",
-                    "id": "6883703:ronnapatp",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "ronnapatp"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members",
-                "custom": true,
-                "id": "6883739",
-                "type": "github:index/team:Team",
-                "inputs": {
-                    "__defaults": [
-                        "createDefaultMaintainer"
-                    ],
-                    "createDefaultMaintainer": false,
-                    "description": "Core Members",
-                    "name": "Millennium",
-                    "privacy": "closed"
-                },
-                "outputs": {
-                    "createDefaultMaintainer": false,
-                    "description": "Core Members",
-                    "etag": "W/\"76392c9456e354d9b97e0943dc8ef3fab951945772168673f8860f9a7f8b24b0\"",
-                    "id": "6883739",
-                    "ldapDn": "",
-                    "membersCount": 0,
-                    "name": "Millennium",
-                    "nodeId": "T_kwDOBvJpkc4AaQmb",
-                    "privacy": "closed",
-                    "slug": "millennium"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "description": [],
-                    "name": [],
-                    "privacy": []
-                }
-            },
-            {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-DrowningToast",
                 "custom": true,
                 "id": "6883703:DrowningToast",
@@ -399,9 +177,9 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-NakZaa",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-7valkio",
                 "custom": true,
-                "id": "6883703:NakZaa",
+                "id": "6883703:7valkio",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -409,14 +187,43 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "NakZaa"
+                    "username": "7valkio"
                 },
                 "outputs": {
-                    "etag": "W/\"128d71a746ed95473c2d2c731dac569146963f27ebd438527390690b2689cf94\"",
-                    "id": "6883703:NakZaa",
+                    "etag": "W/\"1be2cb2f7596e20783a57624b14b0a0aa7feaa756dff782ebd8c158ca444ea2a\"",
+                    "id": "6883703:7valkio",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "NakZaa"
+                    "username": "7valkio"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-05-09T11:24:31.649970485Z",
+                "modified": "2024-05-09T11:24:31.649970485Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-heypoom",
+                "custom": true,
+                "id": "6883703:heypoom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "heypoom"
+                },
+                "outputs": {
+                    "etag": "W/\"0a60caa7487bb103d9e4035f44e1ad6933b125450adcba6d541d8c0caf87606a\"",
+                    "id": "6883703:heypoom",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "heypoom"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -426,9 +233,9 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-supern64",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-absolute-tk",
                 "custom": true,
-                "id": "6883703:supern64",
+                "id": "6883703:absolute-tk",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -436,14 +243,14 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "supern64"
+                    "username": "absolute-tk"
                 },
                 "outputs": {
-                    "etag": "W/\"78fb1b88ed30f153e1846e577d7bd12e395ccaf29c0674a5b20ee638fe7c7bde\"",
-                    "id": "6883703:supern64",
+                    "etag": "W/\"dca0e8e18d8071f6c57f2d57a66bd764e549407a9926fa987e0a94e9cb82569e\"",
+                    "id": "6883703:absolute-tk",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "supern64"
+                    "username": "absolute-tk"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -451,176 +258,8 @@
                     "teamId": [],
                     "username": []
                 },
-                "created": "2024-03-10T04:26:34.440365883Z",
-                "modified": "2024-03-10T04:26:34.440365883Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-chisaato",
-                "custom": true,
-                "id": "6883703:chisaato",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "chisaato"
-                },
-                "outputs": {
-                    "etag": "W/\"ee07bf95204d766a57a7e75a831a07679b00936e3124f2079d0e487a9369b912\"",
-                    "id": "6883703:chisaato",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "chisaato"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-05-03T16:00:45.086292344Z",
-                "modified": "2024-05-03T16:00:45.086292344Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-t6tg",
-                "custom": true,
-                "id": "6883703:t6tg",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "t6tg"
-                },
-                "outputs": {
-                    "etag": "W/\"a074079410a11e492b765bdf39d6df644e472d766db3ec8dca2432d297dfda1b\"",
-                    "id": "6883703:t6tg",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "t6tg"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-04-17T14:30:47.41450155Z",
-                "modified": "2024-04-17T14:30:47.41450155Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-pathonscript",
-                "custom": true,
-                "id": "6883703:pathonscript",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "pathonscript"
-                },
-                "outputs": {
-                    "etag": "W/\"21307e7edd6a0ccbe99f4b75b02bf0b833928d918db6d3366ca7e244d6b30da1\"",
-                    "id": "6883703:pathonscript",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "pathonscript"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-SaltyAom",
-                "custom": true,
-                "id": "6883703:SaltyAom",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "SaltyAom"
-                },
-                "outputs": {
-                    "etag": "W/\"8928ee214379d7bab2932f4486ad18ef71769da24e17cbca4e74a1ba1fbb37c5\"",
-                    "id": "6883703:SaltyAom",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "SaltyAom"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-thanhgaming5550",
-                "custom": true,
-                "id": "6883703:thanhgaming5550",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "thanhgaming5550"
-                },
-                "outputs": {
-                    "etag": "W/\"56615cbcc3e8f5db03a2b5a2d5340872079dfa9a1d669763f4c7bb953b36e602\"",
-                    "id": "6883703:thanhgaming5550",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "thanhgaming5550"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-satellair",
-                "custom": true,
-                "id": "6883703:satellair",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "satellair"
-                },
-                "outputs": {
-                    "etag": "W/\"943f3d60a95b06950215e73fd277cce56b9eeafd331b19394b72a28f51e03636\"",
-                    "id": "6883703:satellair",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "satellair"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-05-08T05:47:59.544186813Z",
-                "modified": "2024-05-08T05:47:59.544186813Z"
+                "created": "2024-02-26T19:03:55.015023125Z",
+                "modified": "2024-02-26T19:03:55.015023125Z"
             },
             {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-dtinth",
@@ -650,9 +289,9 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-tinarskii",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-mrwan200",
                 "custom": true,
-                "id": "6883703:tinarskii",
+                "id": "6883703:mrwan200",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -660,14 +299,14 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "tinarskii"
+                    "username": "mrwan200"
                 },
                 "outputs": {
-                    "etag": "W/\"60797ad38324b976a73b9b62cbc0bae307455fc5c4a0c761fbe81a95533c8824\"",
-                    "id": "6883703:tinarskii",
+                    "etag": "W/\"9bf0adb5f4684d95071997aa9eadc6883ff1d6149ba85ac4acf132d25acd25f9\"",
+                    "id": "6883703:mrwan200",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "tinarskii"
+                    "username": "mrwan200"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -675,6 +314,35 @@
                     "teamId": [],
                     "username": []
                 }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Mirailisc",
+                "custom": true,
+                "id": "6883703:Mirailisc",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "Mirailisc"
+                },
+                "outputs": {
+                    "etag": "W/\"9b20423e341146330bd160d3d6c807e375e9b6e9dd41b6b7f65e63f1dc9cee10\"",
+                    "id": "6883703:Mirailisc",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "Mirailisc"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2023-09-05T06:09:08.982925282Z",
+                "modified": "2023-09-05T06:09:08.982925282Z"
             },
             {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Siravijbb",
@@ -704,62 +372,6 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-goragod",
-                "custom": true,
-                "id": "6883703:goragod",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "goragod"
-                },
-                "outputs": {
-                    "etag": "W/\"952e15c35b6ca885c8b6f42265b3332f673090492fa2edb00a1578d1f447015e\"",
-                    "id": "6883703:goragod",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "goragod"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-volt-l18",
-                "custom": true,
-                "id": "6883703:volt-l18",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "volt-l18"
-                },
-                "outputs": {
-                    "etag": "W/\"e7804d3be57f9a60deacf2c634c6d393032522ee53917af514913b678d474077\"",
-                    "id": "6883703:volt-l18",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "volt-l18"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-05-03T15:55:56.25171669Z",
-                "modified": "2024-05-03T15:55:56.25171669Z"
-            },
-            {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Kuuuuuuuu",
                 "custom": true,
                 "id": "6883703:Kuuuuuuuu",
@@ -778,6 +390,33 @@
                     "role": "member",
                     "teamId": "6883703",
                     "username": "Kuuuuuuuu"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-pathonscript",
+                "custom": true,
+                "id": "6883703:pathonscript",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "pathonscript"
+                },
+                "outputs": {
+                    "etag": "W/\"21307e7edd6a0ccbe99f4b75b02bf0b833928d918db6d3366ca7e244d6b30da1\"",
+                    "id": "6883703:pathonscript",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "pathonscript"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -816,9 +455,9 @@
                 "modified": "2024-04-07T16:31:46.446288702Z"
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Mirailisc",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-sleepntsheep",
                 "custom": true,
-                "id": "6883703:Mirailisc",
+                "id": "6883703:sleepntsheep",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -826,14 +465,68 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "Mirailisc"
+                    "username": "sleepntsheep"
                 },
                 "outputs": {
-                    "etag": "W/\"9b20423e341146330bd160d3d6c807e375e9b6e9dd41b6b7f65e63f1dc9cee10\"",
-                    "id": "6883703:Mirailisc",
+                    "etag": "W/\"90b0898645f177fc0789462ba932bcce83c66457d1118e9a3ccdfd8987a14cf5\"",
+                    "id": "6883703:sleepntsheep",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "Mirailisc"
+                    "username": "sleepntsheep"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Qwenty228",
+                "custom": true,
+                "id": "6883703:Qwenty228",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "Qwenty228"
+                },
+                "outputs": {
+                    "etag": "W/\"6a18cb17a5973a874c351ea00f114f02aa1bd0cbb389687270a5eae82cae5fb3\"",
+                    "id": "6883703:Qwenty228",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "Qwenty228"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-fzn0x",
+                "custom": true,
+                "id": "6883703:fzn0x",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "fzn0x"
+                },
+                "outputs": {
+                    "etag": "W/\"f01885608a2bf0f6aefcd8462b5919159885a421d90dbf60d08db3c116452677\"",
+                    "id": "6883703:fzn0x",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "fzn0x"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -841,8 +534,8 @@
                     "teamId": [],
                     "username": []
                 },
-                "created": "2023-09-05T06:09:08.982925282Z",
-                "modified": "2023-09-05T06:09:08.982925282Z"
+                "created": "2024-05-15T17:14:52.509725884Z",
+                "modified": "2024-05-15T17:14:52.509725884Z"
             },
             {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-miello",
@@ -863,33 +556,6 @@
                     "role": "member",
                     "teamId": "6883703",
                     "username": "miello"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-sleepntsheep",
-                "custom": true,
-                "id": "6883703:sleepntsheep",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "sleepntsheep"
-                },
-                "outputs": {
-                    "etag": "W/\"90b0898645f177fc0789462ba932bcce83c66457d1118e9a3ccdfd8987a14cf5\"",
-                    "id": "6883703:sleepntsheep",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "sleepntsheep"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -926,9 +592,9 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-heypoom",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-goragod",
                 "custom": true,
-                "id": "6883703:heypoom",
+                "id": "6883703:goragod",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -936,68 +602,14 @@
                     ],
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "heypoom"
+                    "username": "goragod"
                 },
                 "outputs": {
-                    "etag": "W/\"0a60caa7487bb103d9e4035f44e1ad6933b125450adcba6d541d8c0caf87606a\"",
-                    "id": "6883703:heypoom",
+                    "etag": "W/\"952e15c35b6ca885c8b6f42265b3332f673090492fa2edb00a1578d1f447015e\"",
+                    "id": "6883703:goragod",
                     "role": "member",
                     "teamId": "6883703",
-                    "username": "heypoom"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-wasdee",
-                "custom": true,
-                "id": "6883703:wasdee",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "wasdee"
-                },
-                "outputs": {
-                    "etag": "W/\"fa88139019bc2fc48208b9eae87839219803a08f6fe4e788079b4731ea145ac4\"",
-                    "id": "6883703:wasdee",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "wasdee"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-WitMaster98",
-                "custom": true,
-                "id": "6883703:WitMaster98",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "WitMaster98"
-                },
-                "outputs": {
-                    "etag": "W/\"b3cbfbed5c40429fe3b9027c5fbab12bd30df4b18afabeb26accf04dc07f8322\"",
-                    "id": "6883703:WitMaster98",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "WitMaster98"
+                    "username": "goragod"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
@@ -1034,67 +646,421 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamRepository:TeamRepository::team-core-members-repo-torpleng-anisong",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-supern64",
                 "custom": true,
-                "id": "6883739:torpleng-anisong",
-                "type": "github:index/teamRepository:TeamRepository",
-                "inputs": {
-                    "__defaults": [],
-                    "permission": "push",
-                    "repository": "torpleng-anisong",
-                    "teamId": "6883739"
-                },
-                "outputs": {
-                    "etag": "W/\"68a6013083fa3e999fb4047ae09973d748278817377769217a8196026196d12a\"",
-                    "id": "6883739:torpleng-anisong",
-                    "permission": "push",
-                    "repository": "torpleng-anisong",
-                    "teamId": "6883739"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "dependencies": [
-                    "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
-                ],
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "permission": [],
-                    "repository": [],
-                    "teamId": [
-                        "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
-                    ]
-                }
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-SaltyAom",
-                "custom": true,
-                "id": "6883739:SaltyAom",
+                "id": "6883703:supern64",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
                         "role"
                     ],
                     "role": "member",
-                    "teamId": "6883739",
+                    "teamId": "6883703",
+                    "username": "supern64"
+                },
+                "outputs": {
+                    "etag": "W/\"78fb1b88ed30f153e1846e577d7bd12e395ccaf29c0674a5b20ee638fe7c7bde\"",
+                    "id": "6883703:supern64",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "supern64"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-03-10T04:26:34.440365883Z",
+                "modified": "2024-03-10T04:26:34.440365883Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-rayriffy",
+                "custom": true,
+                "id": "6883703:rayriffy",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "rayriffy"
+                },
+                "outputs": {
+                    "etag": "W/\"817ac98563c0f0395e1ee926f8781fb62c1fe8f302454a5c0cb532adf4c227ed\"",
+                    "id": "6883703:rayriffy",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "rayriffy"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-satellair",
+                "custom": true,
+                "id": "6883703:satellair",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "satellair"
+                },
+                "outputs": {
+                    "etag": "W/\"943f3d60a95b06950215e73fd277cce56b9eeafd331b19394b72a28f51e03636\"",
+                    "id": "6883703:satellair",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "satellair"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-05-08T05:47:59.544186813Z",
+                "modified": "2024-05-08T05:47:59.544186813Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-thanhgaming5550",
+                "custom": true,
+                "id": "6883703:thanhgaming5550",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "thanhgaming5550"
+                },
+                "outputs": {
+                    "etag": "W/\"56615cbcc3e8f5db03a2b5a2d5340872079dfa9a1d669763f4c7bb953b36e602\"",
+                    "id": "6883703:thanhgaming5550",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "thanhgaming5550"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-chisaato",
+                "custom": true,
+                "id": "6883703:chisaato",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "chisaato"
+                },
+                "outputs": {
+                    "etag": "W/\"ee07bf95204d766a57a7e75a831a07679b00936e3124f2079d0e487a9369b912\"",
+                    "id": "6883703:chisaato",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "chisaato"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-05-03T16:00:45.086292344Z",
+                "modified": "2024-05-03T16:00:45.086292344Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-tinarskii",
+                "custom": true,
+                "id": "6883703:tinarskii",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "tinarskii"
+                },
+                "outputs": {
+                    "etag": "W/\"60797ad38324b976a73b9b62cbc0bae307455fc5c4a0c761fbe81a95533c8824\"",
+                    "id": "6883703:tinarskii",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "tinarskii"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-ronnapatp",
+                "custom": true,
+                "id": "6883703:ronnapatp",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "ronnapatp"
+                },
+                "outputs": {
+                    "etag": "W/\"68e942acf75d5d9b55c290422a8c3152960face20b8c58df4fee27de15c79a7f\"",
+                    "id": "6883703:ronnapatp",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "ronnapatp"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-volt-l18",
+                "custom": true,
+                "id": "6883703:volt-l18",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "volt-l18"
+                },
+                "outputs": {
+                    "etag": "W/\"e7804d3be57f9a60deacf2c634c6d393032522ee53917af514913b678d474077\"",
+                    "id": "6883703:volt-l18",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "volt-l18"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-05-03T15:55:56.25171669Z",
+                "modified": "2024-05-03T15:55:56.25171669Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-NakZaa",
+                "custom": true,
+                "id": "6883703:NakZaa",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "NakZaa"
+                },
+                "outputs": {
+                    "etag": "W/\"128d71a746ed95473c2d2c731dac569146963f27ebd438527390690b2689cf94\"",
+                    "id": "6883703:NakZaa",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "NakZaa"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-wasdee",
+                "custom": true,
+                "id": "6883703:wasdee",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "wasdee"
+                },
+                "outputs": {
+                    "etag": "W/\"fa88139019bc2fc48208b9eae87839219803a08f6fe4e788079b4731ea145ac4\"",
+                    "id": "6883703:wasdee",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "wasdee"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-SaltyAom",
+                "custom": true,
+                "id": "6883703:SaltyAom",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
                     "username": "SaltyAom"
                 },
                 "outputs": {
-                    "etag": "W/\"ecbe02710be959a7f43895de1e289ed9f3955ebf0c8fb19ed2bc981c5eead696\"",
-                    "id": "6883739:SaltyAom",
+                    "etag": "W/\"8928ee214379d7bab2932f4486ad18ef71769da24e17cbca4e74a1ba1fbb37c5\"",
+                    "id": "6883703:SaltyAom",
                     "role": "member",
-                    "teamId": "6883739",
+                    "teamId": "6883703",
                     "username": "SaltyAom"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "dependencies": [
-                    "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
-                ],
                 "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
                 "propertyDependencies": {
-                    "teamId": [
-                        "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
-                    ],
+                    "teamId": [],
                     "username": []
                 }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-palmcm",
+                "custom": true,
+                "id": "6883703:palmcm",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "palmcm"
+                },
+                "outputs": {
+                    "etag": "W/\"8946ad0f077578ef4bdcb5e72fa33e9f603bd3ddfddc6b155217fa42b21c6305\"",
+                    "id": "6883703:palmcm",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "palmcm"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-narze",
+                "custom": true,
+                "id": "6883703:narze",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "narze"
+                },
+                "outputs": {
+                    "etag": "W/\"7f7242ef2f294999bab7bd023bb48424b10fc9b4d1ffed56fc46303fe293c7df\"",
+                    "id": "6883703:narze",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "narze"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                }
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-t6tg",
+                "custom": true,
+                "id": "6883703:t6tg",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "t6tg"
+                },
+                "outputs": {
+                    "etag": "W/\"a074079410a11e492b765bdf39d6df644e472d766db3ec8dca2432d297dfda1b\"",
+                    "id": "6883703:t6tg",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "t6tg"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-04-17T14:30:47.41450155Z",
+                "modified": "2024-04-17T14:30:47.41450155Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-zunzureal",
+                "custom": true,
+                "id": "6883703:zunzureal",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "zunzureal"
+                },
+                "outputs": {
+                    "etag": "W/\"10fd8df952f5ebc8cff85b726650337f8835d5e46dfa84a4d398f544697d593d\"",
+                    "id": "6883703:zunzureal",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "zunzureal"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-02-17T10:45:07.79292627Z",
+                "modified": "2024-02-17T10:45:07.79292627Z"
             },
             {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-chayapatr",
@@ -1161,6 +1127,37 @@
                 }
             },
             {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamRepository:TeamRepository::team-core-members-repo-torpleng-anisong",
+                "custom": true,
+                "id": "6883739:torpleng-anisong",
+                "type": "github:index/teamRepository:TeamRepository",
+                "inputs": {
+                    "__defaults": [],
+                    "permission": "push",
+                    "repository": "torpleng-anisong",
+                    "teamId": "6883739"
+                },
+                "outputs": {
+                    "etag": "W/\"68a6013083fa3e999fb4047ae09973d748278817377769217a8196026196d12a\"",
+                    "id": "6883739:torpleng-anisong",
+                    "permission": "push",
+                    "repository": "torpleng-anisong",
+                    "teamId": "6883739"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "dependencies": [
+                    "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
+                ],
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "permission": [],
+                    "repository": [],
+                    "teamId": [
+                        "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
+                    ]
+                }
+            },
+            {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-tinarskii",
                 "custom": true,
                 "id": "6883739:tinarskii",
@@ -1193,9 +1190,9 @@
                 }
             },
             {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-rayriffy",
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-SaltyAom",
                 "custom": true,
-                "id": "6883739:rayriffy",
+                "id": "6883739:SaltyAom",
                 "type": "github:index/teamMembership:TeamMembership",
                 "inputs": {
                     "__defaults": [
@@ -1203,14 +1200,14 @@
                     ],
                     "role": "member",
                     "teamId": "6883739",
-                    "username": "rayriffy"
+                    "username": "SaltyAom"
                 },
                 "outputs": {
-                    "etag": "W/\"68764ae08db725967819a517decdaea89f70e1311a5db9acb82c4fece9d23e4b\"",
-                    "id": "6883739:rayriffy",
+                    "etag": "W/\"ecbe02710be959a7f43895de1e289ed9f3955ebf0c8fb19ed2bc981c5eead696\"",
+                    "id": "6883739:SaltyAom",
                     "role": "member",
                     "teamId": "6883739",
-                    "username": "rayriffy"
+                    "username": "SaltyAom"
                 },
                 "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
                 "dependencies": [
@@ -1256,6 +1253,38 @@
                 }
             },
             {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-rayriffy",
+                "custom": true,
+                "id": "6883739:rayriffy",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883739",
+                    "username": "rayriffy"
+                },
+                "outputs": {
+                    "etag": "W/\"68764ae08db725967819a517decdaea89f70e1311a5db9acb82c4fece9d23e4b\"",
+                    "id": "6883739:rayriffy",
+                    "role": "member",
+                    "teamId": "6883739",
+                    "username": "rayriffy"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "dependencies": [
+                    "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
+                ],
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [
+                        "urn:pulumi:cunnydev::CunnyDev::github:index/team:Team::team-core-members"
+                    ],
+                    "username": []
+                }
+            },
+            {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamRepository:TeamRepository::team-core-members-repo-177013-commits",
                 "custom": true,
                 "id": "6883739:177013-commits",
@@ -1287,6 +1316,91 @@
                 }
             },
             {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Gusb3ll",
+                "custom": true,
+                "id": "6883703:Gusb3ll",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "Gusb3ll"
+                },
+                "outputs": {
+                    "etag": "W/\"238265cb12a636102ca130314724548a1a31aed2120bee920f9a0cc1ba418c06\"",
+                    "id": "6883703:Gusb3ll",
+                    "role": "maintainer",
+                    "teamId": "6883703",
+                    "username": "Gusb3ll"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "modified": "2024-05-29T02:27:46.099829084Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Leomotors",
+                "custom": true,
+                "id": "6883703:Leomotors",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "Leomotors"
+                },
+                "outputs": {
+                    "etag": "W/\"9cefe5714da36b4d008e23bfce9a24277540781e033fdd861c8aa4f4d5ba6b6e\"",
+                    "id": "6883703:Leomotors",
+                    "role": "maintainer",
+                    "teamId": "6883703",
+                    "username": "Leomotors"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "modified": "2024-05-29T02:27:49.835258092Z"
+            },
+            {
+                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-vermaysha",
+                "custom": true,
+                "id": "6883703:vermaysha",
+                "type": "github:index/teamMembership:TeamMembership",
+                "inputs": {
+                    "__defaults": [
+                        "role"
+                    ],
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "vermaysha"
+                },
+                "outputs": {
+                    "etag": "W/\"9f62dbf646fed205abcdfb72a43f129156e2645b6bc94cfdf9cb073628fe4d23\"",
+                    "id": "6883703:vermaysha",
+                    "role": "member",
+                    "teamId": "6883703",
+                    "username": "vermaysha"
+                },
+                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
+                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
+                "propertyDependencies": {
+                    "teamId": [],
+                    "username": []
+                },
+                "created": "2024-05-29T02:27:49.976762642Z",
+                "modified": "2024-05-29T02:27:49.976762642Z"
+            },
+            {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-Gusb3ll",
                 "custom": true,
                 "id": "6883739:Gusb3ll",
@@ -1300,7 +1414,7 @@
                     "username": "Gusb3ll"
                 },
                 "outputs": {
-                    "etag": "W/\"9cb8259780e338439e1ad8ccf09215f8dc7c56ca5e39474cbaa8942c4092a23e\"",
+                    "etag": "W/\"8514b626054052a891dfd526a73e2a46e0b776c41b1d03b6f248f68777f08ed6\"",
                     "id": "6883739:Gusb3ll",
                     "role": "maintainer",
                     "teamId": "6883739",
@@ -1317,92 +1431,7 @@
                     ],
                     "username": []
                 },
-                "modified": "2024-05-15T17:14:51.153810066Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Leomotors",
-                "custom": true,
-                "id": "6883703:Leomotors",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "Leomotors"
-                },
-                "outputs": {
-                    "etag": "W/\"8e9aca20d0c15f3392aeaa526e738192ec0df2e35d2c8ba049fdc063dd6ddba5\"",
-                    "id": "6883703:Leomotors",
-                    "role": "maintainer",
-                    "teamId": "6883703",
-                    "username": "Leomotors"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "modified": "2024-05-15T17:14:52.338972261Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-Gusb3ll",
-                "custom": true,
-                "id": "6883703:Gusb3ll",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "Gusb3ll"
-                },
-                "outputs": {
-                    "etag": "W/\"e0ee6c62529358275a2bcb09748e1df6a3362a247cceeb84dee879b1105dad6d\"",
-                    "id": "6883703:Gusb3ll",
-                    "role": "maintainer",
-                    "teamId": "6883703",
-                    "username": "Gusb3ll"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "modified": "2024-05-15T17:14:52.425080821Z"
-            },
-            {
-                "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::membership-for-fzn0x",
-                "custom": true,
-                "id": "6883703:fzn0x",
-                "type": "github:index/teamMembership:TeamMembership",
-                "inputs": {
-                    "__defaults": [
-                        "role"
-                    ],
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "fzn0x"
-                },
-                "outputs": {
-                    "etag": "W/\"f01885608a2bf0f6aefcd8462b5919159885a421d90dbf60d08db3c116452677\"",
-                    "id": "6883703:fzn0x",
-                    "role": "member",
-                    "teamId": "6883703",
-                    "username": "fzn0x"
-                },
-                "parent": "urn:pulumi:cunnydev::CunnyDev::pulumi:pulumi:Stack::CunnyDev-cunnydev",
-                "provider": "urn:pulumi:cunnydev::CunnyDev::pulumi:providers:github::default_5_0_0::a06ea449-1814-45c0-aead-e0394f915174",
-                "propertyDependencies": {
-                    "teamId": [],
-                    "username": []
-                },
-                "created": "2024-05-15T17:14:52.509725884Z",
-                "modified": "2024-05-15T17:14:52.509725884Z"
+                "modified": "2024-05-29T02:27:50.109098156Z"
             },
             {
                 "urn": "urn:pulumi:cunnydev::CunnyDev::github:index/teamMembership:TeamMembership::team-core-members-membership-for-Leomotors",
@@ -1418,7 +1447,7 @@
                     "username": "Leomotors"
                 },
                 "outputs": {
-                    "etag": "W/\"1828bc2fe60c907f70ec943ac09060ef2dccd479f12fb9ea2f83fa4d8fb44dbe\"",
+                    "etag": "W/\"c9909391df8bc7206a2cdced85f06a6d071263c46f6e301f222e9947bb066ce3\"",
                     "id": "6883739:Leomotors",
                     "role": "maintainer",
                     "teamId": "6883739",
@@ -1435,7 +1464,7 @@
                     ],
                     "username": []
                 },
-                "modified": "2024-05-15T17:14:52.591126713Z"
+                "modified": "2024-05-29T02:27:50.270808241Z"
             }
         ]
     }
